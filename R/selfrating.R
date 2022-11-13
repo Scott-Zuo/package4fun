@@ -1,5 +1,5 @@
 
-#' Rating based on your name height and weight
+#' Rating based on your name height and weight by calculating BMI
 #' @param name your first name
 #' @param height in meter
 #' @param weight in kg
@@ -15,6 +15,9 @@ selfrating <- function(name, height, weight) {
   }
   else{
     ret <- paste(name, "is not overweight~")
+  }
+  if(name == "Linda"){
+    ret <- "Linda is a 10/10 as always!"
   }
   ret
 }
