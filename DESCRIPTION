@@ -1,0 +1,10 @@
+Package: package4fun
+Type: Package
+Title: package4fun
+Version: 0.1.0
+Author: Scott Zuo
+Maintainer: Scott Zuo <scott.zuo@yale.edu>
+Description: package with several functions for fun
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+RoxygenNote: 7.2.1
